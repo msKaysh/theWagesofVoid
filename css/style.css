@@ -11,17 +11,17 @@ html {
     min-height: 100vh;
     align-items: center;
     flex: wrap;
+    height: 60vh;
 }
 
 .text-container {
     background-color: #111111;
     border: 1px solid #A9834F;
     text-align: justify;
-    border-radius: 55px 0 55px 0;
+    border-radius: 65px 0 65px 0;
     font-family: 'Rajdhani';
-    font-size: 1.5rem;
-    height: auto;
-    flex-grow: 1;
+    height: 61vh;
+    font-weight: 500;
 }
 
 div.nav-item:last-child {
@@ -34,10 +34,15 @@ div.nav-item:first-child {
 
 .paragraph {
     margin: 5rem 2rem;
+    font-size: 1.8rem;
 }
 
 .options {
     text-align: center;
+}
+
+.options p{
+    font-size: 2rem;
 }
 
 /* ----------------------------------------------NAVIGATION - --------------------------------------------------------------------------------------------- */
@@ -51,9 +56,11 @@ nav {
     outline: 5px double transparent;
     border: .5px solid #A9834F;
     display: block;
-    margin: 2px;
     font-family: 'Metamorphous';
-    margin: 1rem auto;
+    font-size: 1.8rem;
+    margin: 1.7rem auto;
+    width: 80%;
+    padding: .2rem;
 }
 
 .nav-link {
@@ -67,11 +74,12 @@ nav {
 }
 
 .nav-icon {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     vertical-align: middle;
-    padding: .3rem;
-    margin-right: .5rem;
+    padding: .2rem;
+    margin: auto .5rem;
+    
 }
 
 .active{
